@@ -1,6 +1,11 @@
+import { StyledMainContainer } from "./styled";
+
+
 export const Main = (props) => {
     const { children } = props;
     return (
-        <div>{children}</div>
+        <StyledMainContainer>
+            {children}
+        </StyledMainContainer>
     );
 }
